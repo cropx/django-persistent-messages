@@ -11,10 +11,11 @@ setup(
     long_description=read('README.md'),
     author='philomat',
     license='BSD',
-    url='http://github.com/philomat/django-persistent-messages',
+    url='http://github.com/ceasaro/django-persistent-messages',
     keywords = ['messages', 'django', 'persistent',],
     packages=[
         'persistent_messages',
+        'persistent_messages.migrations',
     ],
     classifiers=[
         'Development Status :: 4 - Beta',
