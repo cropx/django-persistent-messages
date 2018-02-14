@@ -11,7 +11,7 @@ setup(
     long_description=read('README.md'),
     author='philomat',
     license='BSD',
-    url='http://github.com/ceasaro/django-persistent-messages',
+    url='https://github.com/Crop-R/django-persistent-messages',
     keywords = ['messages', 'django', 'persistent',],
     packages=[
         'persistent_messages',
