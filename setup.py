@@ -6,9 +6,8 @@ def read(fname):
 
 setup(
     name='django-persistent-messages',
-    version='0.1',
+    version='0.1.2',
     description='A Django app for unified and persistent user messages/notifications, built on top of Django\'s messages framework',
-    long_description=read('README.md'),
     author='philomat',
     license='BSD',
     url='https://github.com/Crop-R/django-persistent-messages',
@@ -24,6 +23,12 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
         'Framework :: Django',
     ],
     zip_safe=False,
